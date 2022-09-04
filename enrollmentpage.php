@@ -1,5 +1,5 @@
 <?php
-$servername = "localhost";
+/*$servername = "localhost";
 $username = "root";
 $password = "";
 $dbname = "online_enrollment_design";
@@ -7,7 +7,12 @@ $conn = new mysqli($servername, $username, $password, $dbname);
 if ($conn->connect_error)
 die("Connection failed: " . $conn->connect_error);
 else
-// echo "Successfully Connection to the database!";
+// echo "Successfully Connection to the database!";*/
+
+$servername = "us-cdbr-east-06.cleardb.net";
+$username = "b8088fe756207e";
+$password = "248eb91b";
+$dbname = "heroku_f75c68dec6849f1";
 
 if(isset($_POST['search'])){//check search value is set or not
     $sql = "SELECT module.name mname, lecturer.name lname, student.name sname, block, mark, averagemarks, module.mid, lecturer.lid, student.stid
