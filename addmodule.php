@@ -1,8 +1,13 @@
 <?php
-$servername = "localhost";
+/*$servername = "localhost";
 $username = "root";
 $password = ""; //Your password here
-$dbname = "online_enrollment_design";
+$dbname = "online_enrollment_design";*/
+
+$servername = "us-cdbr-east-06.cleardb.net";
+$username = "b8088fe756207e";
+$password = "248eb91b";
+$dbname = "heroku_f75c68dec6849f1";
 
     
     $id = $_POST["MID"];
