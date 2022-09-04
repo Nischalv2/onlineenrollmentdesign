@@ -10,7 +10,7 @@ $password = "248eb91b";
 $dbname = "heroku_f75c68dec6849f1";*/
 
 
-include "connection.php";
+include 'connection.php';
 
     
     $id = $_POST["MID"];
